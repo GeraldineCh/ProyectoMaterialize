@@ -17,7 +17,6 @@ body {
 .text-primary {
 	color: #000000;
 }
-/*Header*/
 header {
 	display: flex;
 	background-image: url(../img/bg.jpg);
@@ -28,8 +27,8 @@ header {
 	align-items: center;
 	flex-direction: column;
 }
-header h1{
-	font-size: 5.6rem;
+header .name{
+	font-size: 4.9rem;
 }
 header h5{
 	padding: 1rem;
