@@ -6,35 +6,49 @@ body {
 	font-size: 10px;
 }
 
-h1{
-	font-size: 4.0rem;
+.portfolio h2{
+	font-size: 3.56rem;
 }
 
-h3{
-	font-size: 2.5rem;
-}
-
-.container{
-	background-color: #FFF;
+.portfolio h5{
+	font-size: 1.64rem;
 }
 
 .row{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 13%;
+	margin-right: 13%;
 }
 
 img{
-	height: 100%;
-	margin:0;!important
-	padding: 0; !important
-	background-size: cover;
+	height: 200px;
 }
 
 .row .col{
-	padding:0; !important
+	padding:0;
 }
 
-.col{
-	margin: 0; !important
-	padding: 0; !important
+hr{
+	border: none;
+  height: 2px;
+  color: #B5B5B5; /* old IE */
+  background-color: #B5B5B5;
+}
+
+@media only screen and (max-width: 769px) {
+    /* For mobile phones: */
+  img{
+		height: 80px;
+	}
+
+	.portfolio h2{
+		font-size: 3.7rem;
+	}
+
+	.portfolio h5{
+		font-size: 2.0rem;
+	}
+
+	hr{
+		width: 40px;
+	}
 }
