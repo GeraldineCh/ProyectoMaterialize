@@ -1,3 +1,40 @@
-body, html {
-	background-color: #EDEDED !important;
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 10px;
+}
+
+h1{
+	font-size: 4.0rem;
+}
+
+h3{
+	font-size: 2.5rem;
+}
+
+.container{
+	background-color: #FFF;
+}
+
+.row{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+img{
+	height: 100%;
+	margin:0;!important
+	padding: 0; !important
+	background-size: cover;
+}
+
+.row .col{
+	padding:0; !important
+}
+
+.col{
+	margin: 0; !important
+	padding: 0; !important
 }
