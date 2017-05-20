@@ -7,6 +7,9 @@ html {
 body {
 	font-size: 10px;
 }
+p, a {
+	font-size: 1.4rem;
+}
 /*Clases Heredables*/
 .text-uppercase {
 	text-transform: uppercase;
@@ -17,6 +20,14 @@ body {
 .text-primary {
 	color: #000000;
 }
+.separator {
+	width: 50px;
+	margin-bottom: 2em;
+}
+.title-section {
+	padding-top: 5.0rem;
+}
+/*HEADER*/
 header {
 	position: relative;
 	display: flex;
@@ -25,15 +36,8 @@ header {
 	align-items: center;
 	flex-direction: column;
 	overflow: hidden;
-}
-header .dinamyc-bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	transform-origin: center;
-}
-header .row {
-	z-index: 2;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
 }
 header .name{
 	font-size: 4.9rem;
@@ -42,20 +46,23 @@ header h5{
 	padding: 1rem;
 	background-color: #FFFFFF;
 }
-
-@media (min-width: 0px), (min-width: 960px) {
-	header .dinamyc-bg{
-		height: 1200px;
-		width: 674px;
-		transform: scale(1.25, 1.25);
-		transform: translate(-23%);
+/*SECCIÓN ABOUT ME*/
+.about-me, .about-me .profile {
+	padding-top: 2.4rem;
+}
+.about-me .body-section h5{
+	padding-bottom: 3.0rem;
+}
+/*MEDIA QUERY*/
+@media (min-width: 0px) {
+	header {
+		background-size: 1412px;
+		background-position-x: -255px;
 	}
 }
-
-@media (min-width:1000px){
-	header  .dinamyc-bg{
-		height: 100%;
-		width: 100%;
-		transform: scale(1,1);
+@media (min-width: 960px),(min-width:1000px){
+	header  {
+		background-size: cover;
+		background-position: center;
 	}
 }
