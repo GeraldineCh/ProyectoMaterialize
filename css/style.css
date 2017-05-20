@@ -41,7 +41,7 @@ header h6{
 	background-color: #FFFFFF;
 }
 /*SECCIÓN ABOUT ME*/
-.about-me{
+.about-me .container{
 	padding-top: 3.5rem;
 }
 .about-me .section-body h6{
@@ -50,16 +50,32 @@ header h6{
 .about-me .profile {
 	padding-top: 24px;
 }
+/*PORTFOLIO CODIGO DE DANA*/
+.portfolio {
+	background-color: #FFFFFF;
+}
+.portfolio .container-img {
+	padding: 0;
+}
+.portfolio .container-img img{
+	width: 100%;
+}
 /*MEDIA QUERY*/
-@media (min-width: 0px) {
+@media (min-width: 0){
 	header {
 		background-size: 1412px;
 		background-position-x: -255px;
 	}
+	.portfolio .container-img img{
+		height: 80px;
+	}
 }
-@media (min-width: 960px),(min-width:1000px){
-	header  {
-		background-size: cover;
-		background-position: center;
+@media (min-width: 992px), (min-width: 1200px) {
+	header {
+	background-size: cover;
+	background-position: center;
+	}
+	.portfolio .container-img img{
+		height: 200px;
 	}
 }
