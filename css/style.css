@@ -1,3 +1,61 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 10px;
+}
+/*Clases Heredables*/
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-secondary {
+	color: #FFFFFF;
+}
+.text-primary {
+	color: #000000;
+}
+header {
+	position: relative;
+	display: flex;
+	height: 650px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+header .dinamyc-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: center;
+}
+header .row {
+	z-index: 2;
+}
+header .name{
+	font-size: 4.9rem;
+}
+header h5{
+	padding: 1rem;
+	background-color: #FFFFFF;
+}
+
+@media (min-width: 0px), (min-width: 960px) {
+	header .dinamyc-bg{
+		height: 1200px;
+		width: 674px;
+		transform: scale(1.25, 1.25);
+		transform: translate(-23%);
+	}
+}
+
+@media (min-width:1000px){
+	header  .dinamyc-bg{
+		height: 100%;
+		width: 100%;
+		transform: scale(1,1);
+	}
+}
