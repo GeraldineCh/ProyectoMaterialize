@@ -11,8 +11,12 @@ body, html {
 .text-primary {
 	color: #000000;
 }
-.section-title {
+section {
 	padding-top: 3.5rem;
+	padding-bottom: 6rem;
+}
+.section-title{
+	padding-bottom: 1rem;
 }
 .section-title h6{
 	padding-top: 0.25rem;
@@ -32,9 +36,6 @@ header {
 	overflow: hidden;
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
-}
-header .name{
-	font-size: 4rem;
 }
 header h6{
 	padding: 1rem;
@@ -66,6 +67,9 @@ header h6{
 		background-size: 1412px;
 		background-position-x: -255px;
 	}
+	header .name{
+		font-size: 3.5rem;
+	}
 	.portfolio .container-img img{
 		height: 80px;
 	}
@@ -74,6 +78,9 @@ header h6{
 	header {
 	background-size: cover;
 	background-position: center;
+	}
+	header .name{
+		font-size: 4rem;
 	}
 	.portfolio .container-img img{
 		height: 200px;
