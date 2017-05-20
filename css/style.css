@@ -1,15 +1,6 @@
 body, html {
 	background-color: #EDEDED !important;
 }
-html {
-	font-size: 62.5%;
-}
-body {
-	font-size: 10px;
-}
-p, a {
-	font-size: 1.4rem;
-}
 /*Clases Heredables*/
 .text-uppercase {
 	text-transform: uppercase;
@@ -20,12 +11,15 @@ p, a {
 .text-primary {
 	color: #000000;
 }
-.separator {
-	width: 50px;
-	margin-bottom: 2em;
+.section-title {
+	padding-top: 3.5rem;
 }
-.title-section {
-	padding-top: 5.0rem;
+.section-title h6{
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+.section-title hr {
+	width: 3rem;
 }
 /*HEADER*/
 header {
@@ -40,18 +34,21 @@ header {
 	background-repeat: no-repeat;
 }
 header .name{
-	font-size: 4.9rem;
+	font-size: 4rem;
 }
-header h5{
+header h6{
 	padding: 1rem;
 	background-color: #FFFFFF;
 }
 /*SECCIÓN ABOUT ME*/
-.about-me, .about-me .profile {
-	padding-top: 2.4rem;
+.about-me{
+	padding-top: 3.5rem;
 }
-.about-me .body-section h5{
-	padding-bottom: 3.0rem;
+.about-me .section-body h6{
+	margin-bottom: 3rem;
+}
+.about-me .profile {
+	padding-top: 24px;
 }
 /*MEDIA QUERY*/
 @media (min-width: 0px) {
