@@ -2159,7 +2159,13 @@ html {
  */
 body {
   margin: 0;
+<<<<<<< HEAD
 }
+=======
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+>>>>>>> 77dd38548a90c795195c821cd6937529667c0d23
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -2183,6 +2189,10 @@ nav,
 section,
 summary {
   display: block;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 /**

@@ -22,7 +22,7 @@
           </div>
         </div>
       </header>
-      <div class="main">
+      <main>
         <section class="about-me">
           <div class="container">
             <div class="section-title row text-uppercase">
@@ -95,30 +95,90 @@
             </div>
           </div>
         </section>
-        <!-- CODIGO DE DANA -->
         <section class="portfolio">
+          <div class="container">
+           <div class="section-title row text-uppercase">
+             <div class="col s12 m12 l12">
+               <h5 class="center-align">portfolio</h5>
+               <h6 class="center-align">my latest projects</h6>
+               <hr class="center-align">
+             </div>
+           </div>
+           <div class="row center align">
+             <div class="col s12 m12 l12">
+               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/desk-book.jpg"></div>
+               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/consola.jpg"></div>
+               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/code.jpg"></div>
+             </div>
+             <div class="col s12 m12 l12">
+               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/girl-code.jpg"></div>
+               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/desk-code.jpg"></div>
+               <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/img-1.jpg"></div>
+             </div>
+           </div>
+          </div>
+        </section>
+        <section class="contact">
           <div class="container">
             <div class="section-title row text-uppercase">
               <div class="col s12 m12 l12">
-                <h5 class="center-align">portfolio</h5>
-                <h6 class="center-align">my latest projects</h6>
+                <h5 class="center-align">contact</h5>
+                <h6 class="center-align">get in touch with me</h6>
                 <hr class="center-align">
               </div>
             </div>
-            <div class="row center align">
-              <div class="col s12 m12 l12">
-                <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/desk-book.jpg"></div>
-                <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/consola.jpg"></div>
-                <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/code.jpg"></div>
+            <div class="section-body row">
+              <form id="formulario" class="input-field col s12 m6 l6">
+                <div class="row">
+                  <div class="input-field col s6 m6 l6">
+                    <input id="first_name" type="text" class="validate" required="" >
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6 m6 l6">
+                    <input id="last_name" type="text" class="validate" required="">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12 m12 l12">
+                    <input id="email" type="email" class="validate" required="">
+                    <label for="email">E-mail</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12 m12 l12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Your Message</label>
+                  </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">SUBMIT</button>
+              </form>
+              <div id="info" class="col s12 m6 l6">
+                <div class="row">
+                  <h6>ADDRESS</h6>
+                  <p>Nr. 6, 21 Awesome Street, London, UK</p>
+                </div>
+                <div class="row">
+                  <h6>PHONE NUMBER</h6>
+                  <p>+91 9912776151</p>
+                </div>
+                <div class="row">
+                  <h6>WEBSITE</h6>
+                  <p>qnimate.com</p>
+                </div>
               </div>
-              <div class="col s12 m12 l12">
-                 <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/girl-code.jpg"></div>
-                 <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/desk-code.jpg"></div>
-                 <div class="container-img col s4 m4 l4"><img class="materialboxed" src="img/img-1.jpg"></div>
-              </div>
+            </div>
           </div>
-       </section>
-      </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">minombre@hotmail.com</a>
+          </div>
+        </div>
+      </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

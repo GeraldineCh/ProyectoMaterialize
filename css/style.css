@@ -51,7 +51,7 @@ header h6{
 .about-me .profile {
 	padding-top: 24px;
 }
-/*PORTFOLIO CODIGO DE DANA*/
+/*SECCIÓN PORTFOLIO*/
 .portfolio {
 	background-color: #FFFFFF;
 }
@@ -60,6 +60,10 @@ header h6{
 }
 .portfolio .container-img img{
 	width: 100%;
+}
+/*SECCIÓN CONTACT*/
+.contact #info .row{
+	padding-left: 2.5rem;
 }
 /*MEDIA QUERY*/
 @media (min-width: 0){
@@ -73,6 +77,9 @@ header h6{
 	.portfolio .container-img img{
 		height: 80px;
 	}
+	.contact #info{
+		margin-top: 4rem;
+	}
 }
 @media (min-width: 992px), (min-width: 1200px) {
 	header {
@@ -84,5 +91,8 @@ header h6{
 	}
 	.portfolio .container-img img{
 		height: 200px;
+	}
+	.contact #info{
+		margin-top: 0;
 	}
 }
